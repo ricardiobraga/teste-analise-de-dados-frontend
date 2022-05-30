@@ -9,6 +9,8 @@ import styles from './index.module.css'
 import useFetch from './components/useFetch.js';
 import Table from './components/Table';
 
+import HourglassEmptyIcon from '@mui/icons-material/HourglassEmpty';
+
 function App() {
   const url = "https://teste-analise-de-dados-backend.herokuapp.com"
   const {data: dataCards, loading, error} = useFetch(`${url}/cards`); 
@@ -55,7 +57,7 @@ function App() {
   }, [setGraphicInfo, setGraficoData]) 
 
 
-  if(loading) return <h1>LOADING...</h1>  
+  if(loading) return <div className={styles.loading}><HourglassEmptyIcon /><span>loading...</span></div>  
   if(error) console.log(error);  
  
   function Cards() {
