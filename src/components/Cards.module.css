@@ -1,0 +1,36 @@
+
+.cardMain{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 70px;
+    padding: 0 10px;
+    margin-left: 10px;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cardTitle{
+    display: flex;
+    height: 35%;
+    border-bottom: 0.5px solid #f3f3f3;
+    
+    
+    align-items: center;
+    color: #808080;
+    font-size: .7rem;
+    font-weight: 500;
+    
+}
+
+.cardValue{
+    display: flex;
+    height: 75%;  
+    
+    
+    align-items: center;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}

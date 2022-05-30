@@ -1,0 +1,43 @@
+.table {
+    margin: 10px 0 0 0;
+    width: 100%;    
+
+    font-family: 'Roboto', sans-serif;
+    color: #808080;
+    font-size: .9rem;
+    font-weight: 500;
+    
+}
+
+.table th {
+    text-align: start;
+    padding-left: 15px;
+
+    color: #808080;
+    font-size: .9rem;
+    font-weight: 400;
+    width: 16%;
+}
+
+
+.table, th, tr, td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+
+}
+
+
+
+.table tr td {
+    width: 16%;
+
+    text-align: start;
+    padding-left: 15px;
+}
+
+.tableYear {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
