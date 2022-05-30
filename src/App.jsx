@@ -80,7 +80,7 @@ function App() {
       </header>
       <main className={styles.main}>
 
-        <div className={styles.graphicContent}>
+        
           <div className={styles.indice} >
                <div className={styles.indiceDivs}>
                   <div className={styles.indiceTitle}>INDICE</div>
@@ -105,7 +105,7 @@ function App() {
             <BarChart className={styles.graficoCanvas}  charData={graphicInfo} title="teste" />
           </div>
 
-        </div>
+        
 
 
       </main>

@@ -6,6 +6,8 @@
     color: #808080;
     font-size: .9rem;
     font-weight: 500;
+
+    border-top: 0.5px solid #ddd;
     
 }
 
@@ -17,6 +19,7 @@
     font-size: .9rem;
     font-weight: 400;
     width: 16%;
+    height: 30px;
 }
 
 
@@ -30,6 +33,7 @@
 
 .table tr td {
     width: 16%;
+    height: 30px;
 
     text-align: start;
     padding-left: 15px;

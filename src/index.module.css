@@ -1,13 +1,14 @@
-.graphicContent {
+.main {
     display: flex;
     align-items: center;
 
-    height: 38vh;
+
+    width: 30vw;
     
     padding: 15px;
 
-    border-top: 0.5px solid #ddd;
-    border-bottom: 0.5px solid #ddd;
+    
+    
 }
 
 .indice {
@@ -15,8 +16,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 20vw;
-    height: 38vh;
+    width: 15vw;
+    height: 35vh;
     margin-right: 10px;
     
 
@@ -93,8 +94,8 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    width: 40vw;
-    height: 38vh;
+    width: 45vw;
+    height: 35vh;
     background-color: #fff;
 
     

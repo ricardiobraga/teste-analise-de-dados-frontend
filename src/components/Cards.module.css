@@ -2,8 +2,8 @@
 .cardMain{
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 70px;
+    width: 250px;
+    height: 90px;
     padding: 0 10px;
     margin-left: 10px;
     background-color: #fff;

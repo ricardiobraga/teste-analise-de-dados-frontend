@@ -25,10 +25,10 @@ header{
   align-items: center;
   
   width: 100vw;
-  height: 9.5vh;
+  height: 15vh;
 
   gap: 10px;
-  border-bottom: 0.5px solid #f3f3f3;
+  border-bottom: 0.5px solid #ddd;
 
   
 }
