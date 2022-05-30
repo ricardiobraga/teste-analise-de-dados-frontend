@@ -13,8 +13,7 @@ import axios from 'axios';
         setLoading(true);
         axios.get(url)
         .then( (res) => {            
-            setData(res.data)
-            console.log("data");
+            setData(res.data);            
         })
         .catch( (err) => {
             setError(err);

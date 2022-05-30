@@ -10,8 +10,8 @@ import useFetch from './components/useFetch.js';
 import Table from './components/Table';
 
 function App() {
-  
-  const {data: dataCards, loading, error} = useFetch("http://localhost:3003/cards"); 
+  const url = "https://teste-analise-de-dados-backend.herokuapp.com"
+  const {data: dataCards, loading, error} = useFetch(`${url}/cards`); 
   const [graficoData, setGraficoData] = useState([])
   const colorBars= ["#00c864", "#64c800", "#c80064", "#0064c8", "#640064"]; 
   
@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {    
    
-    fetch('http://localhost:3003/grafico')
+    fetch(`${url}/grafico`)
     .then(res => {
       if(!res.ok) {throw res}
       return res.json()
@@ -47,11 +47,11 @@ function App() {
           backgroundColor: ["#80e4b2", "#b2e480", "#e480b2", "#80b2e4", "#b280b2"]
         }],       
       })
-
       setGraficoData(data)
-      
-
     })  
+    .catch( (err) => {
+      console.log(err);;
+  })
   }, [setGraphicInfo, setGraficoData]) 
 
 

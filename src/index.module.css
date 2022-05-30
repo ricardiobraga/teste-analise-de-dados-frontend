@@ -105,7 +105,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 95%;
+    padding-left: 10px;
+    width: 97%;
     height: 30px;
     
 
